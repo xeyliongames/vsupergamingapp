@@ -1,0 +1,15 @@
+
+/* Styles properties */
+ion-content[_aio-10E6CD86] {
+	align-self: center;
+}
+[_aio-1B14AE70] {
+	width: 100%;
+}
+ion-button[_aio-D3C489D3]::part(native) {
+	background-color: #bf9000;
+	border-color: #bf9000;
+}
+audio[_aio-38FC7E34] {
+	width: 300px;
+}
