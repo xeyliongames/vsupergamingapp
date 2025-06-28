@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="A search application built with InstantSearch.js and Algolia.">
+
+  <link rel="shortcut icon" href="./favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8/themes/satellite-min.css">
+  <link rel="stylesheet" href="./src/index.css">
+  <link rel="stylesheet" href="./src/app.css">
+
+  <title>InstantSearch App</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header-title">
+      <a href="/">InstantSearch App</a>
+    </h1>
+    <p class="header-subtitle">
+      Built with
+      <a href="https://github.com/algolia/instantsearch/tree/master/packages/instantsearch.js" target="_blank" rel="noopener noreferrer">
+        InstantSearch.js
+      </a>
+    </p>
+  </header>
+
+  <main class="container">
+    <div class="search-panel">
+      <div class="search-panel__filters">
+        <!-- Filters will be rendered here -->
+      </div>
+
+      <div class="search-panel__results">
+        <div id="searchbox"></div>
+        <div id="hits"></div>
+        <div id="pagination"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js" integrity="sha384-..." crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.79.0" integrity="sha384-..." crossorigin="anonymous"></script>
+  <script src="./src/app.js" defer></script>
+</body>
+
+</html>
